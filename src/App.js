@@ -1,18 +1,7 @@
 import React, { Component } from 'react';
-import {
-  BrowserRouter  as Router,
-  HashRouter,
-  Route,
-} from 'react-router-dom'
-import ArticleList from './ArticleList'
-import Article from './Article'
+import {BrowserRouter as Router} from 'react-router-dom'
+import Routes from './Routes'
 import './App.css';
-
-const NotFound = () => (
-  <div>
-    No article found here.
-  </div>
-)
 
 class App extends Component {
   constructor(props) {
@@ -23,15 +12,21 @@ class App extends Component {
   }
 
   componentWillMount() {
-    fetch('api-data.json')
-    .then((res) => res.json())
-    .then(data => {
+    if (window.DATA_ARTICLES) {
       this.setState({
-        articles: data
+        articles: window.DATA_ARTICLES
       })
-    }).catch(err => {
-      throw err
-    })
+    } else {
+      fetch('/api-data.json')
+      .then((res) => res.json())
+      .then(data => {
+        this.setState({
+          articles: data
+        })
+      }).catch(err => {
+        throw err
+      })
+    }
   }
 
   render() {
@@ -43,16 +38,7 @@ class App extends Component {
 
     return (
       <Router>
-        <div>
-          <Route path="/article/:id" render={({match}) => {
-            const id = match.params.id
-            const article = articles[id]
-            return article ? <Article article={article}/> : <NotFound />
-          }}/>
-          <Route exact path="/" render={({...rest}) => (
-            <ArticleList articles={articles} {...rest} />
-          )}/>
-        </div>
+        <Routes articles={articles} />
       </Router>
     );
   }

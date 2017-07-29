@@ -1,5 +1,5 @@
 {
-  "name": "conde-nast-test-app",
+  "name": "conde-nast-isomophic",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,9 +13,19 @@
   "scripts": {
     "start": "npm run watch-css & react-scripts start",
     "build": "npm run build-css && react-scripts build",
+    "server": "npm run build && babel-node src/Server.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.15.3",
+    "cheerio": "^1.0.0-rc.2",
+    "jsonfile": "^3.0.1"
   }
 }
