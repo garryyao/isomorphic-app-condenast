@@ -1,0 +1,21 @@
+@import "bootstrap/scss/bootstrap";
+
+img.cover {
+  width: 100%;
+  min-height: 500px; /* place holding size */
+}
+
+.card-img-overlay .card-title {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $gray-dark;
+}
+
+.card, .card-img {
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+
+.nav-back {
+  left: 2rem;
+  top: 1rem;
+}
