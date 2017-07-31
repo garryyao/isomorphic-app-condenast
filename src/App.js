@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router} from 'react-router-dom'
+import Router from './Router'
 import Routes from './Routes'
+import Config from './Config'
 import './App.css';
 
 class App extends Component {
@@ -17,7 +18,7 @@ class App extends Component {
         articles: window.DATA_ARTICLES
       })
     } else {
-      fetch('/api-data.json')
+      fetch(Config.apiUrl)
       .then((res) => res.json())
       .then(data => {
         this.setState({

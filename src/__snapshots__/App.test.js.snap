@@ -1,0 +1,825 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders initial loading screen 1`] = `
+"{
+	\\"type\\": \\"App\\",
+	\\"props\\": {},
+	\\"children\\": [
+		{
+			\\"type\\": \\"div\\",
+			\\"props\\": {},
+			\\"children\\": [
+				\\"Loading...\\"
+			]
+		}
+	]
+}"
+`;
+
+exports[`renders list of articles 1`] = `
+"{
+	\\"type\\": \\"ArticleList\\",
+	\\"props\\": {
+		\\"match\\": {
+			\\"path\\": \\"/\\",
+			\\"url\\": \\"/\\",
+			\\"isExact\\": true,
+			\\"params\\": {}
+		}
+	},
+	\\"children\\": [
+		{
+			\\"type\\": \\"div\\",
+			\\"props\\": {
+				\\"className\\": \\"container-fluid\\"
+			},
+			\\"children\\": [
+				{
+					\\"type\\": \\"ul\\",
+					\\"props\\": {
+						\\"className\\": \\"row list-unstyled no-gutters\\"
+					},
+					\\"children\\": [
+						{
+							\\"type\\": \\"li\\",
+							\\"props\\": {
+								\\"className\\": \\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"to\\": \\"/article/0\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"href\\": \\"/article/0\\"
+											},
+											\\"children\\": [
+												{
+													\\"type\\": \\"div\\",
+													\\"props\\": {
+														\\"className\\": \\"card card-inverse\\"
+													},
+													\\"children\\": [
+														{
+															\\"type\\": \\"img\\",
+															\\"props\\": {
+																\\"className\\": \\"cover card-img\\",
+																\\"alt\\": \\"Lorem Ipsum is simply dummy text of the printing and typesetting industry\\",
+																\\"src\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/1.jpg\\"
+															},
+															\\"children\\": null
+														},
+														{
+															\\"type\\": \\"div\\",
+															\\"props\\": {
+																\\"className\\": \\"card-img-overlay\\"
+															},
+															\\"children\\": [
+																{
+																	\\"type\\": \\"h3\\",
+																	\\"props\\": {
+																		\\"className\\": \\"card-title\\"
+																	},
+																	\\"children\\": [
+																		\\"Lorem Ipsum is simply dummy text of the printing and typesetting industry\\"
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							\\"type\\": \\"li\\",
+							\\"props\\": {
+								\\"className\\": \\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"to\\": \\"/article/1\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"href\\": \\"/article/1\\"
+											},
+											\\"children\\": [
+												{
+													\\"type\\": \\"div\\",
+													\\"props\\": {
+														\\"className\\": \\"card card-inverse\\"
+													},
+													\\"children\\": [
+														{
+															\\"type\\": \\"img\\",
+															\\"props\\": {
+																\\"className\\": \\"cover card-img\\",
+																\\"alt\\": \\"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\\",
+																\\"src\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/2.jpg\\"
+															},
+															\\"children\\": null
+														},
+														{
+															\\"type\\": \\"div\\",
+															\\"props\\": {
+																\\"className\\": \\"card-img-overlay\\"
+															},
+															\\"children\\": [
+																{
+																	\\"type\\": \\"h3\\",
+																	\\"props\\": {
+																		\\"className\\": \\"card-title\\"
+																	},
+																	\\"children\\": [
+																		\\"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\\"
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							\\"type\\": \\"li\\",
+							\\"props\\": {
+								\\"className\\": \\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"to\\": \\"/article/2\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"href\\": \\"/article/2\\"
+											},
+											\\"children\\": [
+												{
+													\\"type\\": \\"div\\",
+													\\"props\\": {
+														\\"className\\": \\"card card-inverse\\"
+													},
+													\\"children\\": [
+														{
+															\\"type\\": \\"img\\",
+															\\"props\\": {
+																\\"className\\": \\"cover card-img\\",
+																\\"alt\\": \\"An unknown printer took a galley of type and scrambled it\\",
+																\\"src\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/3.jpg\\"
+															},
+															\\"children\\": null
+														},
+														{
+															\\"type\\": \\"div\\",
+															\\"props\\": {
+																\\"className\\": \\"card-img-overlay\\"
+															},
+															\\"children\\": [
+																{
+																	\\"type\\": \\"h3\\",
+																	\\"props\\": {
+																		\\"className\\": \\"card-title\\"
+																	},
+																	\\"children\\": [
+																		\\"An unknown printer took a galley of type and scrambled it\\"
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							\\"type\\": \\"li\\",
+							\\"props\\": {
+								\\"className\\": \\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"to\\": \\"/article/3\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"href\\": \\"/article/3\\"
+											},
+											\\"children\\": [
+												{
+													\\"type\\": \\"div\\",
+													\\"props\\": {
+														\\"className\\": \\"card card-inverse\\"
+													},
+													\\"children\\": [
+														{
+															\\"type\\": \\"img\\",
+															\\"props\\": {
+																\\"className\\": \\"cover card-img\\",
+																\\"alt\\": \\"It has survived five centuries\\",
+																\\"src\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/4.jpg\\"
+															},
+															\\"children\\": null
+														},
+														{
+															\\"type\\": \\"div\\",
+															\\"props\\": {
+																\\"className\\": \\"card-img-overlay\\"
+															},
+															\\"children\\": [
+																{
+																	\\"type\\": \\"h3\\",
+																	\\"props\\": {
+																		\\"className\\": \\"card-title\\"
+																	},
+																	\\"children\\": [
+																		\\"It has survived five centuries\\"
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							\\"type\\": \\"li\\",
+							\\"props\\": {
+								\\"className\\": \\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"to\\": \\"/article/4\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"href\\": \\"/article/4\\"
+											},
+											\\"children\\": [
+												{
+													\\"type\\": \\"div\\",
+													\\"props\\": {
+														\\"className\\": \\"card card-inverse\\"
+													},
+													\\"children\\": [
+														{
+															\\"type\\": \\"img\\",
+															\\"props\\": {
+																\\"className\\": \\"cover card-img\\",
+																\\"alt\\": \\"It was popularised in the 1960s with the release of Letraset sheets\\",
+																\\"src\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/5.jpg\\"
+															},
+															\\"children\\": null
+														},
+														{
+															\\"type\\": \\"div\\",
+															\\"props\\": {
+																\\"className\\": \\"card-img-overlay\\"
+															},
+															\\"children\\": [
+																{
+																	\\"type\\": \\"h3\\",
+																	\\"props\\": {
+																		\\"className\\": \\"card-title\\"
+																	},
+																	\\"children\\": [
+																		\\"It was popularised in the 1960s with the release of Letraset sheets\\"
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							\\"type\\": \\"li\\",
+							\\"props\\": {
+								\\"className\\": \\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"to\\": \\"/article/5\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"href\\": \\"/article/5\\"
+											},
+											\\"children\\": [
+												{
+													\\"type\\": \\"div\\",
+													\\"props\\": {
+														\\"className\\": \\"card card-inverse\\"
+													},
+													\\"children\\": [
+														{
+															\\"type\\": \\"img\\",
+															\\"props\\": {
+																\\"className\\": \\"cover card-img\\",
+																\\"alt\\": \\"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.\\",
+																\\"src\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/6.jpg\\"
+															},
+															\\"children\\": null
+														},
+														{
+															\\"type\\": \\"div\\",
+															\\"props\\": {
+																\\"className\\": \\"card-img-overlay\\"
+															},
+															\\"children\\": [
+																{
+																	\\"type\\": \\"h3\\",
+																	\\"props\\": {
+																		\\"className\\": \\"card-title\\"
+																	},
+																	\\"children\\": [
+																		\\"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.\\"
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							\\"type\\": \\"li\\",
+							\\"props\\": {
+								\\"className\\": \\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"to\\": \\"/article/6\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"href\\": \\"/article/6\\"
+											},
+											\\"children\\": [
+												{
+													\\"type\\": \\"div\\",
+													\\"props\\": {
+														\\"className\\": \\"card card-inverse\\"
+													},
+													\\"children\\": [
+														{
+															\\"type\\": \\"img\\",
+															\\"props\\": {
+																\\"className\\": \\"cover card-img\\",
+																\\"alt\\": \\"A search for 'lorem ipsum' will uncover many web sites still in their infancy\\",
+																\\"src\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/7.jpg\\"
+															},
+															\\"children\\": null
+														},
+														{
+															\\"type\\": \\"div\\",
+															\\"props\\": {
+																\\"className\\": \\"card-img-overlay\\"
+															},
+															\\"children\\": [
+																{
+																	\\"type\\": \\"h3\\",
+																	\\"props\\": {
+																		\\"className\\": \\"card-title\\"
+																	},
+																	\\"children\\": [
+																		\\"A search for 'lorem ipsum' will uncover many web sites still in their infancy\\"
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							\\"type\\": \\"li\\",
+							\\"props\\": {
+								\\"className\\": \\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"to\\": \\"/article/7\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"href\\": \\"/article/7\\"
+											},
+											\\"children\\": [
+												{
+													\\"type\\": \\"div\\",
+													\\"props\\": {
+														\\"className\\": \\"card card-inverse\\"
+													},
+													\\"children\\": [
+														{
+															\\"type\\": \\"img\\",
+															\\"props\\": {
+																\\"className\\": \\"cover card-img\\",
+																\\"alt\\": \\"It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old\\",
+																\\"src\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/8.jpg\\"
+															},
+															\\"children\\": null
+														},
+														{
+															\\"type\\": \\"div\\",
+															\\"props\\": {
+																\\"className\\": \\"card-img-overlay\\"
+															},
+															\\"children\\": [
+																{
+																	\\"type\\": \\"h3\\",
+																	\\"props\\": {
+																		\\"className\\": \\"card-title\\"
+																	},
+																	\\"children\\": [
+																		\\"It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old\\"
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							\\"type\\": \\"li\\",
+							\\"props\\": {
+								\\"className\\": \\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"to\\": \\"/article/8\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"href\\": \\"/article/8\\"
+											},
+											\\"children\\": [
+												{
+													\\"type\\": \\"div\\",
+													\\"props\\": {
+														\\"className\\": \\"card card-inverse\\"
+													},
+													\\"children\\": [
+														{
+															\\"type\\": \\"img\\",
+															\\"props\\": {
+																\\"className\\": \\"cover card-img\\",
+																\\"alt\\": \\"Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \\\\\\"de Finibus Bonorum et Malorum\\\\\\"\\",
+																\\"src\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/9.jpg\\"
+															},
+															\\"children\\": null
+														},
+														{
+															\\"type\\": \\"div\\",
+															\\"props\\": {
+																\\"className\\": \\"card-img-overlay\\"
+															},
+															\\"children\\": [
+																{
+																	\\"type\\": \\"h3\\",
+																	\\"props\\": {
+																		\\"className\\": \\"card-title\\"
+																	},
+																	\\"children\\": [
+																		\\"Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \\\\\\"de Finibus Bonorum et Malorum\\\\\\"\\"
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							\\"type\\": \\"li\\",
+							\\"props\\": {
+								\\"className\\": \\"col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"to\\": \\"/article/9\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"href\\": \\"/article/9\\"
+											},
+											\\"children\\": [
+												{
+													\\"type\\": \\"div\\",
+													\\"props\\": {
+														\\"className\\": \\"card card-inverse\\"
+													},
+													\\"children\\": [
+														{
+															\\"type\\": \\"img\\",
+															\\"props\\": {
+																\\"className\\": \\"cover card-img\\",
+																\\"alt\\": \\"Various versions have evolved over the years, sometimes by accident, sometimes on purpose\\",
+																\\"src\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/10.jpg\\"
+															},
+															\\"children\\": null
+														},
+														{
+															\\"type\\": \\"div\\",
+															\\"props\\": {
+																\\"className\\": \\"card-img-overlay\\"
+															},
+															\\"children\\": [
+																{
+																	\\"type\\": \\"h3\\",
+																	\\"props\\": {
+																		\\"className\\": \\"card-title\\"
+																	},
+																	\\"children\\": [
+																		\\"Various versions have evolved over the years, sometimes by accident, sometimes on purpose\\"
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}"
+`;
+
+exports[`renders one article (not found ) 1`] = `
+"{
+	\\"type\\": \\"NotFound\\",
+	\\"props\\": {},
+	\\"children\\": [
+		{
+			\\"type\\": \\"p\\",
+			\\"props\\": {},
+			\\"children\\": [
+				\\"No article found here.\\"
+			]
+		}
+	]
+}"
+`;
+
+exports[`renders one article 1`] = `
+"{
+	\\"type\\": \\"Article\\",
+	\\"props\\": {
+		\\"article\\": {
+			\\"id\\": 1,
+			\\"title\\": \\"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\\",
+			\\"body\\": [
+				{
+					\\"type\\": \\"plaintext\\",
+					\\"body\\": \\"Pork loin pastrami bresaola cupim kevin, meatball short ribs drumstick jerky andouille shankle. Pork belly beef chuck chicken strip steak. Venison short loin meatloaf, pork chop porchetta bresaola leberkas doner pork loin. Ham hock prosciutto beef, jerky chuck short loin rump pastrami pork chop. Frankfurter pork chop biltong salami andouille meatloaf sirloin bacon chuck prosciutto pork loin brisket. Cow tenderloin pancetta, ground round ball tip frankfurter andouille short loin tri-tip strip steak.\\"
+				},
+				{
+					\\"type\\": \\"plaintext\\",
+					\\"body\\": \\"Bacon ipsum dolor amet beef ribs pork chop frankfurter porchetta. Tri-tip corned beef jowl, meatball fatback jerky ball tip filet mignon pork loin capicola meatloaf pig doner tongue t-bone. Jowl ground round strip steak alcatra pork chop short loin. Pork ham hock swine, pork chop prosciutto hamburger tail shoulder landjaeger ground round tenderloin short loin andouille.\\"
+				},
+				{
+					\\"type\\": \\"h2\\",
+					\\"body\\": \\"Going viral isn't a business model\\"
+				},
+				{
+					\\"type\\": \\"h2\\",
+					\\"body\\": \\"Why, why, why didn't I break his legs?\\"
+				},
+				{
+					\\"type\\": \\"plaintext\\",
+					\\"body\\": \\"Cold-pressed VHS aesthetic YOLO, cray pop-up squid lo-fi swag direct trade. Drinking vinegar yuccie everyday carry kale chips. Hoodie ennui four dollar toast synth, occupy chillwave marfa affogato microdosing pour-over hashtag aesthetic. YOLO mixtape quinoa irony, sartorial vice wolf. Sriracha meh pug polaroid brooklyn, everyday carry blog. Small batch poutine portland mixtape dreamcatcher. Ramps helvetica mlkshk skateboard vinyl, pour-over everyday carry schlitz jean shorts food truck celiac.\\"
+				},
+				{
+					\\"type\\": \\"pull_quote\\",
+					\\"body\\": \\"If one examines the postdeconstructive paradigm of expression, one is faced with a choice: either accept modernist rationalism or conclude that expression is created by the masses.\\"
+				},
+				{
+					\\"type\\": \\"plaintext\\",
+					\\"body\\": \\"Frankfurter turducken sausage, landjaeger strip steak tail alcatra. Filet mignon kielbasa brisket tail biltong ham cow. Sausage beef ribs picanha flank chicken, boudin capicola pork loin salami ball tip swine bresaola pig andouille rump. T-bone cupim swine andouille brisket. Pastrami t-bone sausage short loin alcatra porchetta andouille pancetta landjaeger. Frankfurter chicken pork loin, spare ribs sirloin pig picanha rump meatloaf. Venison t-bone sirloin corned beef, cupim tail pastrami capicola tongue landjaeger beef.\\"
+				}
+			],
+			\\"cover\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/2.jpg\\",
+			\\"url\\": \\"https://s3-eu-west-1.amazonaws.com/cnid-tech-test/2.jpg\\"
+		}
+	},
+	\\"children\\": [
+		{
+			\\"type\\": \\"div\\",
+			\\"props\\": {
+				\\"className\\": \\"container\\"
+			},
+			\\"children\\": [
+				{
+					\\"type\\": \\"div\\",
+					\\"props\\": {
+						\\"className\\": \\"row justify-content-center\\"
+					},
+					\\"children\\": [
+						{
+							\\"type\\": \\"article\\",
+							\\"props\\": {
+								\\"className\\": \\"col\\"
+							},
+							\\"children\\": [
+								{
+									\\"type\\": \\"Link\\",
+									\\"props\\": {
+										\\"className\\": \\"nav-back fixed-top\\",
+										\\"to\\": \\"/\\",
+										\\"replace\\": false
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"a\\",
+											\\"props\\": {
+												\\"className\\": \\"nav-back fixed-top\\",
+												\\"href\\": \\"/\\"
+											},
+											\\"children\\": [
+												\\"Home\\"
+											]
+										}
+									]
+								},
+								{
+									\\"type\\": \\"div\\",
+									\\"props\\": {
+										\\"className\\": \\"py-4\\"
+									},
+									\\"children\\": null
+								},
+								{
+									\\"type\\": \\"main\\",
+									\\"props\\": {
+										\\"className\\": \\"article-block\\"
+									},
+									\\"children\\": [
+										{
+											\\"type\\": \\"h1\\",
+											\\"props\\": {
+												\\"className\\": \\"pt-3\\"
+											},
+											\\"children\\": [
+												\\"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s\\"
+											]
+										},
+										{
+											\\"type\\": \\"hr\\",
+											\\"props\\": {},
+											\\"children\\": null
+										},
+										{
+											\\"type\\": \\"p\\",
+											\\"props\\": {},
+											\\"children\\": [
+												\\"Pork loin pastrami bresaola cupim kevin, meatball short ribs drumstick jerky andouille shankle. Pork belly beef chuck chicken strip steak. Venison short loin meatloaf, pork chop porchetta bresaola leberkas doner pork loin. Ham hock prosciutto beef, jerky chuck short loin rump pastrami pork chop. Frankfurter pork chop biltong salami andouille meatloaf sirloin bacon chuck prosciutto pork loin brisket. Cow tenderloin pancetta, ground round ball tip frankfurter andouille short loin tri-tip strip steak.\\"
+											]
+										},
+										{
+											\\"type\\": \\"p\\",
+											\\"props\\": {},
+											\\"children\\": [
+												\\"Bacon ipsum dolor amet beef ribs pork chop frankfurter porchetta. Tri-tip corned beef jowl, meatball fatback jerky ball tip filet mignon pork loin capicola meatloaf pig doner tongue t-bone. Jowl ground round strip steak alcatra pork chop short loin. Pork ham hock swine, pork chop prosciutto hamburger tail shoulder landjaeger ground round tenderloin short loin andouille.\\"
+											]
+										},
+										{
+											\\"type\\": \\"h2\\",
+											\\"props\\": {},
+											\\"children\\": [
+												\\"Going viral isn't a business model\\"
+											]
+										},
+										{
+											\\"type\\": \\"h2\\",
+											\\"props\\": {},
+											\\"children\\": [
+												\\"Why, why, why didn't I break his legs?\\"
+											]
+										},
+										{
+											\\"type\\": \\"p\\",
+											\\"props\\": {},
+											\\"children\\": [
+												\\"Cold-pressed VHS aesthetic YOLO, cray pop-up squid lo-fi swag direct trade. Drinking vinegar yuccie everyday carry kale chips. Hoodie ennui four dollar toast synth, occupy chillwave marfa affogato microdosing pour-over hashtag aesthetic. YOLO mixtape quinoa irony, sartorial vice wolf. Sriracha meh pug polaroid brooklyn, everyday carry blog. Small batch poutine portland mixtape dreamcatcher. Ramps helvetica mlkshk skateboard vinyl, pour-over everyday carry schlitz jean shorts food truck celiac.\\"
+											]
+										},
+										{
+											\\"type\\": \\"blockquote\\",
+											\\"props\\": {
+												\\"className\\": \\"blockquote\\"
+											},
+											\\"children\\": [
+												\\"If one examines the postdeconstructive paradigm of expression, one is faced with a choice: either accept modernist rationalism or conclude that expression is created by the masses.\\"
+											]
+										},
+										{
+											\\"type\\": \\"p\\",
+											\\"props\\": {},
+											\\"children\\": [
+												\\"Frankfurter turducken sausage, landjaeger strip steak tail alcatra. Filet mignon kielbasa brisket tail biltong ham cow. Sausage beef ribs picanha flank chicken, boudin capicola pork loin salami ball tip swine bresaola pig andouille rump. T-bone cupim swine andouille brisket. Pastrami t-bone sausage short loin alcatra porchetta andouille pancetta landjaeger. Frankfurter chicken pork loin, spare ribs sirloin pig picanha rump meatloaf. Venison t-bone sirloin corned beef, cupim tail pastrami capicola tongue landjaeger beef.\\"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}"
+`;

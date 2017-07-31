@@ -10,6 +10,11 @@
     "react-router-dom": "^4.1.2",
     "react-scripts": "1.0.10"
   },
+  "jest": {
+    "snapshotSerializers": [
+      "jest-serializer-enzyme"
+    ]
+  },
   "scripts": {
     "start": "npm run watch-css & react-scripts start",
     "build": "npm run build-css && react-scripts build",
@@ -24,8 +29,13 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "express": "^4.15.3",
+    "bluebird": "^3.5.0",
     "cheerio": "^1.0.0-rc.2",
-    "jsonfile": "^3.0.1"
+    "enzyme": "^2.9.1",
+    "express": "^4.15.3",
+    "jest-serializer-enzyme": "^1.0.0",
+    "jsonfile": "^3.0.1",
+    "react-test-renderer": "^15.6.1",
+    "sinon": "^2.4.1"
   }
 }
